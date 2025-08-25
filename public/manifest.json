@@ -1,0 +1,63 @@
+{
+  "name": "فاحص الأمتعة - Baggage Checker",
+  "short_name": "فاحص الأمتعة",
+  "description": "تحقق من قوانين الأمتعة لأكثر من 100 شركة طيران حول العالم",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3B82F6",
+  "orientation": "portrait",
+  "scope": "/",
+  "lang": "ar",
+  "dir": "rtl",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ],
+  "categories": ["travel", "utilities", "productivity"],
+  "screenshots": [
+    {
+      "src": "/og-image.svg",
+      "sizes": "1200x630",
+      "type": "image/svg+xml",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "فاحص الأمتعة",
+      "short_name": "فحص الأمتعة",
+      "description": "ابحث عن قوانين الأمتعة لشركة طيران محددة",
+      "url": "/baggage-checker",
+      "icons": [
+        {
+          "src": "/vite.svg",
+          "sizes": "any",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "التسويق",
+      "short_name": "التسويق",
+      "description": "اكتشف مميزات فاحص الأمتعة",
+      "url": "/marketing",
+      "icons": [
+        {
+          "src": "/vite.svg",
+          "sizes": "any",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ]
+}
